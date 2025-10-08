@@ -1,0 +1,10 @@
+TypeError: Function cannot be declared as view because this expression (potentially) modifies the state.
+  --> contracts/CertificateRegistry.sol:51:14:
+   |
+51 |         emit CertificateVerified(_certificateId, cert.studentName, cert.isValid);
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Error HH600: Compilation failed
+
+For more info go to https://hardhat.org/HH600 or run Hardhat with --show-stack-traces
